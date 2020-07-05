@@ -22,6 +22,33 @@ base32:   https://example.com/post/aaaaaaaaaaaea/help-ids-are-too-long-what-to-d
 squishid: https://example.com/post/nnae/help-ids-are-too-long-what-to-do-squish-them
 ```
 
+## Usage
+
+```go
+package main
+
+import (
+	"fmt"
+	"github.com/kadfak/squishid-go/squishid"
+)
+
+func main() {
+	fmt.Println(squishid.Squish(666))
+
+	id, err := squishid.Restore("4x")
+	if err != nil {
+		panic("invalid ID")
+	}
+	fmt.Println(id)
+}
+```
+
+```
+Result:
+4x
+666
+```
+
 ## Alphabet
 
 ```
