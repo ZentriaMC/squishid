@@ -29,7 +29,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/kadfak/squishid-go/squishid"
+	"github.com/ZentriaMC/squishid/squishid"
 )
 
 func main() {
@@ -88,3 +88,6 @@ Currently, only 64-bit integers are supported.
 ## License
 
 [MIT](LICENSE)
+
+Originally appearing under [kadfak/squishid-go](https://github.com/kadfak/squishid-go), but seems like user
+has deleted their account.

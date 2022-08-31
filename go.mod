@@ -1,3 +1,3 @@
-module github.com/kadfak/squishid-go
+module github.com/ZentriaMC/squishid
 
 go 1.14
